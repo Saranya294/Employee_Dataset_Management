@@ -1,13 +1,12 @@
 # Employee_Dataset_Management
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **🚀PROJECT TITLE : Employee Management System (EMS)**
-
-           - The Employee Management System (EMS) is a database-driven project designed to efficiently manage employee-related information within an organization.It helps track employee personal details, job roles, salary structures, qualifications, leave records, and payroll data.
+- The Employee Management System (EMS) is a database-driven project designed to efficiently manage employee-related information within an organization.It helps track employee personal details, job roles, salary structures, qualifications, leave records, and payroll data.
            
-           - The system ensures data accuracy and consistency using relational tables, foreign keys, and cascading actions.
+- The system ensures data accuracy and consistency using relational tables, foreign keys, and cascading actions.
 
-           - It also provides useful insights such as payroll calculation, leave tracking, and department-wise analysis to support HR operations.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- It also provides useful insights such as payroll calculation, leave tracking, and department-wise analysis to support HR operations.
+
 
 **📝PROBLEM STATEMENT** 
 
@@ -33,7 +32,7 @@ By using relational database design with foreign keys and cascading updates/dele
 ``` mermaid
 erDiagram
     jobdepartment {
-        int job_id PK
+        int job_id
         varchar jobdept
         varchar name
         text description
@@ -41,60 +40,60 @@ erDiagram
     }
 
     salarybonus {
-        int salary_id PK
-        int jobid FK
+        int salary_id
+        int jobid
         decimal amount
         decimal annual
         decimal bonus
     }
 
     employee {
-        int emp_id PK
+        int emp_id
         varchar firstname
         varchar lastname
         varchar gender
         int age
         varchar contact_add
-        varchar emp_email UNIQUE
+        varchar emp_email
         varchar emp_pass
-        int job_id FK
+        int job_id
     }
 
     qualification {
-        int qualid PK
-        int emp_id FK
+        int qualid
+        int emp_id
         varchar position
         varchar requirements
         date date_in
     }
 
     leaves {
-        int leave_id PK
-        int emp_id FK
+        int leave_id
+        int emp_id
         date date
         text reason
     }
 
     payroll {
-        int payroll_id PK
-        int emp_id FK
-        int job_id FK
-        int salary_id FK
-        int leave_id FK
+        int payroll_id
+        int emp_id
+        int job_id
+        int salary_id
+        int leave_id
         date date
         text report
         decimal total_amount
     }
 
     %% Relationships
-    jobdepartment ||--o{ employee : "has"
-    jobdepartment ||--|| salarybonus : "defines"
-    employee ||--o{ qualification : "earns"
-    employee ||--o{ leaves : "takes"
-    employee ||--o{ payroll : "linked"
-    jobdepartment ||--o{ payroll : "linked"
-    salarybonus ||--o{ payroll : "linked"
-    leaves ||--o{ payroll : "linked"
+    jobdepartment ||--o{ employee : has
+    jobdepartment ||--|| salarybonus : defines
+    employee ||--o{ qualification : earns
+    employee ||--o{ leaves : takes
+    employee ||--o{ payroll : linked
+    jobdepartment ||--o{ payroll : linked
+    salarybonus ||--o{ payroll : linked
+    leaves ||--o{ payroll : linked
 
 ```
 
