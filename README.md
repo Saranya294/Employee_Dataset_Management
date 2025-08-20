@@ -12,20 +12,20 @@
 
 Managing employee data is often difficult when information is scattered across multiple files or systems.
 This can cause:
-        - Errors in payroll calculation
-        - Difficulty in tracking leaves
-        - Inefficiency in HR processes
+   - Errors in payroll calculation
+   - Difficulty in tracking leaves
+   - Inefficiency in HR processes
 
 Solution:
 
 This project integrates all employee-related details into a single system.
 By using relational database design with foreign keys and cascading updates/deletes, the system keeps data consistent and allows easy management of:
-                    - Job departments
-                    - Employee details
-                    - Salary and bonuses
-                    - Qualifications
-                    - Leave records
-                    - Payroll processing
+   - Job departments
+   - Employee details
+   - Salary and bonuses
+   - Qualifications
+   - Leave records
+   - Payroll processing
 
  ### 🗂 Database Structure ###                  
 
@@ -135,21 +135,21 @@ erDiagram
 
 
 **⚙️ Technologies Used**
-               - SQL / MySQL – Database design and implementation
-               - ER Model – For relationships and schema design
+- SQL / MySQL = Database design and implementation
+- ER Model    = For relationships and schema design
 
 **🔑 Key Features**
-               - Centralized storage of employee information.
-               - Secure relationships between tables using foreign keys.
-               - Cascade actions to keep data consistent across all tables.
-               - Payroll processing with salary and leave deductions.
-               - Easy query support for HR analysis.
+- Centralized storage of employee information.
+- Secure relationships between tables using foreign keys.
+- Cascade actions to keep data consistent across all tables.
+- Payroll processing with salary and leave deductions.
+- Easy query support for HR analysis.
 
 **🚀 How to Use**
-              - Clone this repository.
-              - Import the .sql file into MySQL or any relational database system.
-              - Run the provided queries to create tables and insert sample data.
-              - Use SQL queries to analyze employee and payroll data.
+- Clone this repository.
+- Import the .sql file into MySQL or any relational database system.
+- Run the provided queries to create tables and insert sample data.
+- Use SQL queries to analyze employee and payroll data.
 
 
 
