@@ -100,38 +100,38 @@ erDiagram
 **📊 Example Analysis Questions**
 
 1. EMPLOYEE INSIGHTS
-           - How many unique employees are currently in the system?
-           - Which departments have the highest number of employees?
-           - What is the average salary per department?
-           - Who are the top 5 highest-paid employees?
-           - What is the total salary expenditure across the company?
+ - How many unique employees are currently in the system?
+ - Which departments have the highest number of employees?
+ - What is the average salary per department?
+ - Who are the top 5 highest-paid employees?
+ - What is the total salary expenditure across the company?
 
 2. JOB ROLE AND DEPARTMENT ANALYSIS
-           - How many different job roles exist in each department?
-           - What is the average salary range per department?
-           - Which job roles offer the highest salary?
-           - Which departments have the highest total salary allocation?
+   - How many different job roles exist in each department?
+   - What is the average salary range per department?
+   - Which job roles offer the highest salary?
+   - Which departments have the highest total salary allocation?
 
 3. QUALIFICATION AND SKILLS ANALYSIS
-           - How many employees have at least one qualification listed?
-           - Which positions require the most qualifications?
-           - Which employees have the highest number of qualifications?
+  - How many employees have at least one qualification listed?
+  - Which positions require the most qualifications?
+  - Which employees have the highest number of qualifications?
 
 4. LEAVE AND ABSENCE PATTERNS
-           - Which year had the most employees taking leaves?
-           - What is the average number of leave days taken by its employees per department?
-           - Which employees have taken the most leaves?
-           - What is the total number of leave days taken company-wide?
-           - How do leave days correlate with payroll amounts?
+ - Which year had the most employees taking leaves?
+ - What is the average number of leave days taken by its employees per department?
+ - Which employees have taken the most leaves?
+ - What is the total number of leave days taken company-wide?
+ - How do leave days correlate with payroll amounts?
 
 5. PAYROLL AND COMPENSATION ANALYSIS
-           - What is the total monthly payroll processed?
-           - What is the average bonus given per department?
-           - Which department receives the highest total bonuses?
-           - What is the average value of total_amount after considering leave deductions?
+- What is the total monthly payroll processed?
+- What is the average bonus given per department?
+- Which department receives the highest total bonuses?
+- What is the average value of total_amount after considering leave deductions?
 
 6. EMPLOYEE PERFORMANCE AND GROWTH
-           - Which year had the highest number of employee promotions?
+- Which year had the highest number of employee promotions?
 
 
 **⚙️ Technologies Used**
